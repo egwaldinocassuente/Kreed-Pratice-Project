@@ -1,8 +1,9 @@
+import { Header } from "./components/commons/header";
 
 function App() {
   return (
     <div>
-      <h1>Pronto para codificar</h1>
+      <Header />
     </div>
   );
 }
