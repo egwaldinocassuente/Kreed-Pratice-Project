@@ -1,9 +1,10 @@
-import { Header } from "./components/commons/header";
+
+import Container from "./components/commons/ladingPage";
 
 function App() {
   return (
     <div>
-      <Header />
+      <Container />
     </div>
   );
 }
