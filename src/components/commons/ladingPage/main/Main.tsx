@@ -1,4 +1,4 @@
-import { Text, Button, Flex, Heading, Input, Box } from "@chakra-ui/react";
+import { Text, Button, Flex, Heading, Input} from "@chakra-ui/react";
 
 export function Main() {
   return (
