@@ -1,6 +1,6 @@
-import { Text, Button, Flex, Heading, Input, Box, InputGroup, InputLeftElement, InputRightElement} from "@chakra-ui/react";
+import { Text, Button, Flex, Heading, Input, InputGroup, InputLeftElement, InputRightElement} from "@chakra-ui/react";
 
-import { PhoneIcon, AddIcon, WarningIcon, CheckIcon, Search2Icon } from '@chakra-ui/icons'
+import { Search2Icon } from '@chakra-ui/icons'
 
 export function Main() {
   return (
