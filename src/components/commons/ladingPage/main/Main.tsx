@@ -1,4 +1,6 @@
-import { Text, Button, Flex, Heading, Input} from "@chakra-ui/react";
+import { Text, Button, Flex, Heading, Input, Box, InputGroup, InputLeftElement, InputRightElement} from "@chakra-ui/react";
+
+import { PhoneIcon, AddIcon, WarningIcon, CheckIcon, Search2Icon } from '@chakra-ui/icons'
 
 export function Main() {
   return (
@@ -15,15 +17,25 @@ export function Main() {
           Pesquise nosso banco de dados de clientes
         </Heading>
 
-  
-        <Input
-        bgColor='white'
-        alignSelf={'center'}
+        <InputGroup>
+        <InputLeftElement
+        pointerEvents='none'
+        children="$"
+         /> 
+
+        <Input 
         placeholder="Encontre seu cliente aqui"
+        bgColor='white'
+        color={'black'}
+        alignSelf={'center'}
         _placeholder={{color: 'blackAlpha.500'}}
         fontSize="16px"
-        borderRadius='10px'
-        /> 
+        borderRadius='10px' />
+
+        <InputRightElement children={<Search2Icon color='blue.800' />} />
+          
+        </InputGroup>
+         
 
       <Text alignSelf={'center'} fontSize='16px' mb={'55px'}>Obtenha seus clientes integrados com nossa tecnologia</Text>
 
